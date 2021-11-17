@@ -1,5 +1,6 @@
-#include"Header.h"
 #include<ctime>
+#include<iostream>
+using namespace std;
 
 void PrintIntroduction(int Difficulty)
 {
