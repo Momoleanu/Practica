@@ -16,7 +16,8 @@ bool PlayGame(int Difficulty,int lives)
 	const int CodeB = rand()%Difficulty+3;
 	const int CodeC = rand()%Difficulty+3;
 
-	cout << CodeA << CodeB << CodeC;
+	//Urmatoarea linie va afiseaza valorile pe care trebuie sa le ghiciti. Doar pentru test.
+	//cout << CodeA << CodeB << CodeC;
 
 	const int CodeSum = CodeA + CodeB + CodeC;
 	const int CodeProduct = CodeA * CodeB * CodeC;
