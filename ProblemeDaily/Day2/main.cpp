@@ -35,6 +35,8 @@ int main(void) {
 		std::cout << temp[i] << " ";
 	}
 
-	delete[] temp, arr;
+	delete[] temp;
+	delete[] arr;
+	
 	return 0;
 }
